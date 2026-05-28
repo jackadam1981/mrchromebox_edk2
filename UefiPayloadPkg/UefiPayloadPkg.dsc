@@ -210,11 +210,6 @@
   DEFINE NETWORK_SNP_ENABLE             = TRUE
 !endif
 
-!if $(NETWORK_IPXE) == TRUE
-  DEFINE NETWORK_ENABLE                 = TRUE
-  DEFINE NETWORK_DRIVER_ENABLE          = TRUE
-!endif
-
 !include NetworkPkg/NetworkDefines.dsc.inc
 
   # Security options:
